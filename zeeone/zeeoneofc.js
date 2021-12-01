@@ -1,6 +1,6 @@
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
-	return`┌❏ *INDONESIA TIME*
+	return`┌❏ *SRILANKA  TIME*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
 └❏ WIT : ${wit}${petik}
@@ -60,7 +60,7 @@ ${petik}├❒ Source
 ├❒ Group_support
 └❒ Ownerbot${petik}
 
-❒ _Creator BotWea © 2K21_ ❒
+❒ _BY MR_SHASHIYA ❒
 `
 }
 const convert = (prefix) => {
@@ -110,7 +110,7 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *ALPHA BOT* 」───❏
+	return`❏───「 *W͎A͎ T͎O͎O͎L ͎ K͎I͎T͎ B͎O͎T͎* 」───❏
      
 ┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
@@ -891,7 +891,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *ALPHA BOT* 」───❏
+❏───「 *W͎A͎ T͎O͎O͎L ͎ K͎I͎T͎ B͎O͎T͎* 」───❏
 `
 }
 
