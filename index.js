@@ -2216,32 +2216,32 @@ const media = await alpha.prepareMessage(from, content, MessageType.image, { thu
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
-ini_anu =`𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 👋
+ini_anu =`W͎A͎ T͎O͎O͎L ͎ K͎I͎T͎ B͎O͎T👋
 
-			『 *BOT INFO*  』
+			 *WELCOME*  
 
-*🔖 Creator :  @${koko.split('@')[0]}*
-*🔖 Powered  : @${ini_mark.split('@')[0]}*
-*🔖 Mode : ${status}*
-*🔖 Status : ${offline ? 'OFFLINE' : 'ONLINE'}*
-*🔖 Prefix : [  ${prefix}  ]*
-*🔖 Group Chat : ${giid.length}*
-*🔖 Private Chat : ${totalchat.length - giid.length}*
-*🔖 Total Chat : ${totalchat.length}*
-*🔖 Lib  : Baileys*
-*🔖 Type  : NodeJs*
-*🔖 Total hit : ${hitall}*
-*🔖 Hit today : ${hit_today.length}*
-*🔖 Speed : ${latensii.toFixed(4)} Second*
-*🔖 Runtime : ${kyun(anunya)}*
-*🔖 Battery : ${isBattre}*
-*🔖 Charging : ${isCharge}*
+*🎃 Creator :  @${koko.split('@')[0]}*
+*🎃 Powered  : @${ini_mark.split('@')[0]}*
+*🎃 Mode : ${status}*
+*🎃 Status : ${offline ? 'OFFLINE' : 'ONLINE'}*
+*🎃 Prefix : [  ${prefix}  ]*
+*🎃 Group Chat : ${giid.length}*
+*🎃 Private Chat : ${totalchat.length - giid.length}*
+*🎃 Total Chat : ${totalchat.length}*
+*🎃 Lib  : Baileys*
+*🎃 Type  : NodeJs*
+*🎃 Total hit : ${hitall}*
+*🎃 Hit today : ${hit_today.length}*
+*🎃 Speed : ${latensii.toFixed(4)} Second*
+*🎃 Runtime : ${kyun(anunya)}*
+*🎃 Battery : ${isBattre}*
+*🎃 Charging : ${isCharge}*
 
 			『 *YOUR INFO* 』
 
 *〽️ Name : ${pushname}*
 *〽️ Bio : ${p1 ? `${p1.status}` : '-'}*
-*〽️ Nomor : @${sender.split('@')[0]}*
+*〽️ Tag : @${sender.split('@')[0]}*
 *〽️ Me : ${mek.key.fromMe ? 'True' : 'False'}*
 *〽️ Owner : ${isOwner ? 'True' : `False`}*
 `
@@ -2793,7 +2793,7 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `${tampilTanggal}\n${tampilWaktu}\n\n© ${creator}` ,
+footerText: `${tampilTanggal}\n${tampilWaktu}\n\n© MR_SHASHIYA` ,
 buttons: buttonss,
 headerType: 1
 }
@@ -3004,7 +3004,7 @@ case 'bcgif':
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} bot number is owner😇`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
@@ -3012,7 +3012,7 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `${tampilTanggal}\n${tampilWaktu}\n\n© ${creator}` ,
+footerText: `${tampilTanggal}\n${tampilWaktu}\n\n© BY MR_SHASHIYA` ,
 buttons: buttonss,
 headerType: 1
 }
@@ -6220,7 +6220,7 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `${tampilTanggal}\n${tampilWaktu}\n\n© ${creator}` ,
+footerText: `${tampilTanggal}\n${tampilWaktu}\n\n` ,
 buttons: buttonss,
 headerType: 1
 }
